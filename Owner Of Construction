@@ -38,7 +38,7 @@ def maxProfit(costPerCut, salePrice, lengths):
             max_profit = profit
     
     return max_profit
-if _name_ == '_main_':
+if _main_ == '_name_':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
     costPerCut = int(input().strip())
